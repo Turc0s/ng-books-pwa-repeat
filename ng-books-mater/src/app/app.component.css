@@ -1,12 +1,12 @@
 
-.ngb-sidebar {
+/* .ngb-sidebar {
     width: 100%;
     height: 100%;
     border: 1px solid rgba(0, 0, 0, 0.5);
     .ngb-sidenav {
         // padding: 20px;
-        md-list{
-            md-list-item{
+        mat-list{
+            mat-list-item{
                 padding: 5px 30px;
                 &.active, &:hover{
                     cursor: pointer;
@@ -16,7 +16,7 @@
             }
         }
     }
-}
+} */
 
 .menu-toggle{
     margin-left: 10px;

@@ -8,7 +8,7 @@ import { Book } from "../../models/book.model";
   moduleId: module.id,
   selector: 'ngb-book-detail-page',
   templateUrl: 'book-detail-page.component.html',
-  styleUrls: ['book-detail-page.component.scss']
+  styleUrls: ['book-detail-page.component.css']
 })
 export class BookDetailPageComponent implements OnInit {
   book: Book;

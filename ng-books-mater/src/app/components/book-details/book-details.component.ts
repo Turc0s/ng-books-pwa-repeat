@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
   moduleId: module.id,
   selector: 'ngb-book-details',
   templateUrl: './book-details.component.html',
-  styleUrls: ['book-details.component.scss']
+  styleUrls: ['book-details.component.css']
 })
 export class BookDetailsComponent implements OnInit {
   @Input() book: Book;

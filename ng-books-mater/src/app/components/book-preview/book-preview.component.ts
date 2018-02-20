@@ -6,7 +6,7 @@ import { Book } from "../../models/book.model";
   moduleId: module.id,
   selector: 'ngb-book-preview',
   templateUrl: './book-preview.component.html',
-  styleUrls: ['book-preview.component.scss']
+  styleUrls: ['book-preview.component.css']
 })
 export class BookPreviewComponent implements OnInit {
   @Input() book: Book;

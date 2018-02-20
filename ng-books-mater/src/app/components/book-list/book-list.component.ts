@@ -6,7 +6,7 @@ import { Book } from '../../models/book.model';
   moduleId: module.id,
   selector: 'ngb-books-list',
   templateUrl: './books-list.component.html',
-  styleUrls: ['books-list.component.scss']
+  styleUrls: ['books-list.component.css']
 })
 export class BooksListComponent implements OnInit {
   @Input() books: Book[];

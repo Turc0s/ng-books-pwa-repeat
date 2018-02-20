@@ -10,7 +10,7 @@ import { BookService } from '../../services/book.service';
   moduleId: module.id,
   selector: 'ngb-search-books',
   templateUrl: 'search-books.component.html',
-  styleUrls: ['search-books.component.scss']
+  styleUrls: ['search-books.component.css']
 })
 export class SearchBooksComponent implements OnInit {
   searchText = 'science';

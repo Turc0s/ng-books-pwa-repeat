@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   moduleId: module.id,
   selector: 'ngb-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   title = 'ngb';
