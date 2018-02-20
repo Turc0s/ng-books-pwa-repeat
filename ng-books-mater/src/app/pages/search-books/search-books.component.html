@@ -1,0 +1,33 @@
+
+<mat-card>
+  <mat-card-title>Search Books</mat-card-title>
+  <mat-card-content>
+    <mat-input-container>
+      <input matInput (ngModelChange)="onSearchTextChange(searchText)" [(ngModel)]="searchText" placeholder="Search books" [value]="searchText">
+    </mat-input-container>
+    <!-- <mat-spinner [class.show]="searching"></mat-spinner>  -->
+  </mat-card-content>
+</mat-card>
+
+<ngb-books-list [books]="books"></ngb-books-list>
+
+<!-- 
+<mat-grid-list class="books-list" cols="3" rowHeight="1:2" gutterSize="10">
+  <mat-grid-tile class="book-item" *ngFor="let book of books;">
+    <mat-card class="book-card">
+      <mat-card-title>{{book.volumeInfo.title}}</mat-card-title>
+      <mat-card-subtitle>{{book.volumeInfo.subtitle}}</mat-card-subtitle>
+      <mat-card-header>
+        <img class="book-img" md-card-image [src]="book.volumeInfo.imageLinks.thumbnail">
+      </mat-card-header>
+      <mat-card-content>
+        <p>
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button md-button>LIKE</button>
+        <button md-button>SHARE</button>
+      </mat-card-actions>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list> -->
